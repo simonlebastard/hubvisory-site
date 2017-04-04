@@ -1,0 +1,116 @@
+// 1 - Load project variables.
+// 2 - Load bootstrap sass files.
+// 3 - Load custom app sass files.
+
+// --------------------------------------------------------
+//  Import in the default bootstrap variables.
+//  Then override bootstrap default with project specific values.
+// --------------------------------------------------------
+
+//@import "../utilities/variables";
+//@import "../vendor_bootstrap/variables";
+
+// --------------------------------------------------------
+// Import required bootstrap sass files needed for this project.
+// Uncomment any bootstrap functionality required for this project.
+// The idea is to keep this as small as possible.
+// --------------------------------------------------------*/
+
+/* --------------------------------------------------------
+   Core mixins
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/mixins";
+
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/normalize";
+//@import "../vendor_bootstrap/print";
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/reboot";
+//@import "../vendor_bootstrap/type";
+//@import "../vendor_bootstrap/images";
+//@import "../vendor_bootstrap/code";
+//@import "../vendor_bootstrap/grid";
+//@import "../vendor_bootstrap/tables";
+//@import "../vendor_bootstrap/forms";
+//@import "../vendor_bootstrap/buttons";
+
+
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/animation";
+//@import "../vendor_bootstrap/dropdown";
+//@import "../vendor_bootstrap/button-group";
+//@import "../vendor_bootstrap/input-group";
+//@import "../vendor_bootstrap/custom-forms";
+//@import "../vendor_bootstrap/nav";
+//@import "../vendor_bootstrap/navbar";
+//@import "../vendor_bootstrap/card";
+//@import "../vendor_bootstrap/breadcrumb";
+//@import "../vendor_bootstrap/pagination";
+//@import "../vendor_bootstrap/pager";
+//@import "../vendor_bootstrap/labels";
+//@import "../vendor_bootstrap/jumbotron";
+//@import "../vendor_bootstrap/alert";
+//@import "../vendor_bootstrap/progress";
+//@import "../vendor_bootstrap/media";
+//@import "../vendor_bootstrap/list-group";
+//@import "../vendor_bootstrap/responsive-embed";
+//@import "../vendor_bootstrap/close";
+
+
+
+/* --------------------------------------------------------
+   Components w/ JavaScript
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/modal";
+//@import "../vendor_bootstrap/tooltip";
+//@import "../vendor_bootstrap/popover";
+//@import "../vendor_bootstrap/carousel";
+
+
+
+/* --------------------------------------------------------
+   Utility classes
+   -------------------------------------------------------- */
+
+//@import "../vendor_bootstrap/utilities";
+//@import "../vendor_bootstrap/utilities-background";
+//@import "../vendor_bootstrap/utilities-spacing";
+//@import "../vendor_bootstrap/utilities-responsive";
+
+
+
+/* --------------------------------------------------------
+   Custom application specific styles
+   -------------------------------------------------------- */
+
+@import "../base/typography";
+//@import "../base/color";
+
+@import "../layout/header";
+//@import "../layout/sidebar";
+//@import "../layout/footer";
+
+//@import "../module/button";
+//@import "../module/card";
+//@import "../module/icons";
+
+//@import "../page/home";
+//@import "../page/contact";
+//@import "../page/offre";
+//@import "../page/realisations";
+//@import "../page/vision";
