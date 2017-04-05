@@ -3,11 +3,17 @@
 
 .navbar {
     background-color: #fff;
-    box-shadow: rgba(29, 29, 31, 0.0666667) 0px 10px 60px 0px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 0.9rem;
+    box-shadow: rgba(29, 29, 31, 0.0666667) 0px 0px 0px 0px;
+    transition: box-shadow 0.5s;
 }
+
+.navbar.scrolled {
+    box-shadow: rgba(29, 29, 31, 0.0666667) 0px 10px 60px 0px;
+}
+
 
 .navbar ul li {
     padding: 0 8px;

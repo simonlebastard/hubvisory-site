@@ -36,10 +36,14 @@ html, body, ul li, p {
 ========================================================= */
 .navbar {
   background-color: #fff;
-  box-shadow: rgba(29, 29, 31, 0.06667) 0px 10px 60px 0px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  box-shadow: rgba(29, 29, 31, 0.06667) 0px 0px 0px 0px;
+  transition: box-shadow 0.7s; }
+
+.navbar.scrolled {
+  box-shadow: rgba(29, 29, 31, 0.06667) 0px 10px 60px 0px; }
 
 .navbar ul li {
   padding: 0 8px; }
@@ -59,6 +63,6 @@ html, body, ul li, p {
   border-color: #699ACF; }
 
 .container {
-  padding: 100px 0; }
+  padding: 150px 0; }
 
 /*# sourceMappingURL=app.css.map */
