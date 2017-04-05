@@ -1,3 +1,5 @@
+/* Hubvisory colors
+========================================================= */
 /* --------------------------------------------------------
    Core mixins
    -------------------------------------------------------- */
@@ -21,15 +23,42 @@
    -------------------------------------------------------- */
 /* _Typrography
 ========================================================= */
+html {
+  font-size: 14px; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important; }
 
-p {
+html, body, ul li, p {
   font-family: 'Open Sans', sans-serif; }
 
 /* Header
 ========================================================= */
 .navbar {
-  border-bottom: solid 1px lightgrey; }
+  background-color: #fff;
+  box-shadow: rgba(29, 29, 31, 0.06667) 0px 10px 60px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.9rem; }
+
+.navbar ul li {
+  padding: 0 8px; }
+
+.navbar ul li a {
+  color: #699ACF !important;
+  height: 33px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #fff;
+  transition: border 0.7s, color 0.5s; }
+
+.navbar ul li a:hover {
+  border-bottom: solid 1px #699ACF;
+  color: #A9C0D9 !important; }
+
+.navbar-toggler {
+  border-color: #699ACF; }
+
+.container {
+  padding: 100px 0; }
 
 /*# sourceMappingURL=app.css.map */

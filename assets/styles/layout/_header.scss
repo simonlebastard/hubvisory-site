@@ -2,5 +2,31 @@
 ========================================================= */
 
 .navbar {
-    border-bottom: solid 1px lightgrey;
+    background-color: #fff;
+    box-shadow: rgba(29, 29, 31, 0.0666667) 0px 10px 60px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
 }
+
+.navbar ul li {
+    padding: 0 8px;
+}
+
+.navbar ul li a {
+    color: $c-p !important;   
+    height: 33px; 
+    box-sizing: border-box;
+    border-bottom: solid 1px #fff;
+    transition: border 0.7s, color 0.5s;
+}
+
+.navbar ul li a:hover {
+    border-bottom: solid 1px $c-p;
+    color: $c-p-light !important;
+}
+
+.navbar-toggler {
+    border-color: $c-p;
+}
+

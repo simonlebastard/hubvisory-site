@@ -7,7 +7,7 @@
 //  Then override bootstrap default with project specific values.
 // --------------------------------------------------------
 
-//@import "../utilities/variables";
+@import "../utilities/variables";
 //@import "../vendor_bootstrap/variables";
 
 // --------------------------------------------------------
@@ -109,7 +109,7 @@
 //@import "../module/card";
 //@import "../module/icons";
 
-//@import "../page/home";
+@import "../page/home";
 //@import "../page/contact";
 //@import "../page/offre";
 //@import "../page/realisations";
