@@ -1,14 +1,55 @@
 /* _Typrography
 ========================================================= */
+
+/* ==== Base font-size ==== */
 html {
     font-size: 14px;
 }
 
+/* Fonts */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif !important;
+    
 }
 
 html, body, ul li, p {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* ==== Font sizes ==== */
+
+h1 {
+    font-size: 4rem !important;
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem !important;
+    padding: 1rem 0;
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-size: 3rem !important;
+    padding: 0.8rem 0;
+}
+
+h4 {
+    font-size: 2rem !important;
+    padding: 0.5rem 0;
+}
+
+h5 {
+    font-size: 1.5rem !important;
+    padding: 0.3rem 0;
+
+}
+
+h6 {
+    font-size: 1.2rem !important;
+    padding: 0.2rem 0;
+    color: $c-p-light !important;
+}
+
+
 

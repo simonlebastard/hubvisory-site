@@ -1,3 +1,49 @@
-.container {
-    padding: 150px 0;
+/* Home page
+========================================================= */
+#hp-cover {
+    background: linear-gradient(rgba(31, 41, 65, 0.7), rgba(31, 41, 65, 0.5)),url('../../images/hp-illustration-cover.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    min-height: 500px;
+      display: flex;
+    align-items: center;
+}
+
+#hp-cover-section {
+    text-align: center;
+    width: 100%;
+}
+
+html, body {
+  height:100%;
+}
+
+#hp-cover-section h4 {
+    font-weight: 300 !important;
+}
+
+#hp-cover-section h2 {
+    text-transform: uppercase;
+}
+
+#hp-video-section {
+    padding: 100px 0;
+}
+
+.waitin {
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+    border: solid 4px #fff;
+    margin: 3rem 0;
+}
+
+#hp-trust-section .container-fluid {
+    padding: 50px 0;
+}
+
+#hp-trust-section {
+    text-align: center;
+    color: #fff;
 }
