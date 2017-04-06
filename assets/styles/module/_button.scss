@@ -1,0 +1,50 @@
+.btn {
+    border-radius: 1px !important;
+    margin: 0 15px !important;
+    text-transform: uppercase;
+    box-shadow: rgba(29, 29, 31, 0.2) 0px 10px 60px 0px !important;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    padding: 2rem 1.5rem !important;
+}
+
+.btn:hover {
+    box-shadow: rgba(29, 29, 31, 0.25) 0px 10px 40px 0px !important;
+}
+
+// Button Full background - Primary color
+
+.btn-p-fbg {
+    background-color: $c-p;
+    color: #fff;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.btn-p-fbg:hover{
+    background-color: $c-p-dark;
+    color: #fff;
+}
+
+// Button Empty background - Primary color
+
+.btn-p-ebg {
+    background-color: #fff;
+    color: $c-p;
+    border: solid 1px $c-p-lighter !important;
+}
+
+.btn-p-ebg:hover{
+    border: solid 1px $c-p !important;
+    color: $c-p;
+}
+
+// Button Full background - Secondary color
+
+.btn-s-fbg {
+    background-color: $c-s;
+    color: #fff;
+}
+
+.btn-s-fbg:hover{
+    background-color: $c-s-dark;
+    color: #fff;
+}

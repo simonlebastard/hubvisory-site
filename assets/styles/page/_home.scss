@@ -1,12 +1,13 @@
 /* Home page
 ========================================================= */
+
 #hp-cover {
-    background: linear-gradient(rgba(31, 41, 65, 0.7), rgba(31, 41, 65, 0.5)),url('../../images/hp-illustration-cover.jpg') center center no-repeat;
+    background: linear-gradient(rgba(31, 41, 65, 0.7), rgba(31, 41, 65, 0.5)),url('../../images/diffuser.jpg') bottom center no-repeat;
     background-size: cover;
     width: 100%;
     color: #fff;
-    min-height: 500px;
-      display: flex;
+    min-height: 550px;
+    display: flex;
     align-items: center;
 }
 
@@ -15,35 +16,54 @@
     width: 100%;
 }
 
-html, body {
-  height:100%;
-}
 
 #hp-cover-section h4 {
     font-weight: 300 !important;
 }
 
-#hp-cover-section h2 {
+#hp-video-section h2, #hp-trust-section h2 {
     text-transform: uppercase;
 }
 
 #hp-video-section {
-    padding: 100px 0;
+    padding: 100px 0 50px;
 }
 
 .waitin {
-    height: 70px;
+    height: 85px;
     width: 100%;
     background-color: grey;
     border: solid 4px #fff;
     margin: 3rem 0;
 }
 
-#hp-trust-section .container-fluid {
-    padding: 50px 0;
+#hp-trust-section {
+    padding: 50px 0 0;
+    color: #fff !important;
 }
 
 #hp-trust-section {
     text-align: center;
     color: #fff;
+}
+
+@media ( max-width: 768px ) {
+#hp-end-section .btn {
+    margin: 20px 0 !important;
+}
+}
+
+@media ( max-width: 992px ) {
+#footer-diag-section .btn {
+    margin: 20px 0 !important;
+}
+}
+
+#hp-end-section .btn {
+    margin: 10px;
+}
+
+#hp-end-section {
+    padding: 50px 0;
+    text-align: center;
 }

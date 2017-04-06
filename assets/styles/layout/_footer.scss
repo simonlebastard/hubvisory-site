@@ -1,0 +1,36 @@
+footer {
+    color: #fff;
+}
+
+footer ul li a {
+    color: #fff !important;   
+    height: 30px; 
+    box-sizing: border-box;
+    transition:  color 0.5s;
+}
+
+footer ul li a:hover {
+    color: $c-s !important;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer h5 {
+    font-weight: 300 !important;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.diag-row {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-end-section {
+    padding: 50px 0;
+}

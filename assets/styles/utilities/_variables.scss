@@ -1,4 +1,4 @@
-/* Hubvisory colors
+/* Hubvisory colors (Custom Variables)
 ========================================================= */
 
 // Primary color
@@ -10,6 +10,7 @@ $c-p-lighter: #E1EBF5;
 
 // Secondary color
 
+$c-s-dark: #72B4AD;
 $c-s: #8EE1D8;
 
 // Third color
@@ -20,10 +21,14 @@ $c-t: #EC7484;
 
 $c-f: #F7DD86;
 
-// Text color
+// Text color (Overwrite native Bootstrap color)
 
-$c-text: #5C7999;
+$body-color: #5C7999;
 
-// Title color
+// Title color (Overwrite native Bootstrap color)
 
-$c-title: #43597A;
+$headings-color: #43597A;
+
+// Grey scale
+
+$c-g-darkest: #2F353A;
