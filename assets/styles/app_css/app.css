@@ -43,7 +43,7 @@ h1 {
 
 h2 {
   font-size: 1.9rem !important;
-  padding: 1rem 0;
+  padding: 0 0 1rem;
   font-weight: 700 !important;
   letter-spacing: 1.7px; }
 
@@ -243,5 +243,9 @@ footer h5 {
 #hp-end-section {
   padding: 50px 0;
   text-align: center; }
+
+.stripes-bg h2 {
+  padding: 1rem 0;
+  margin: 0; }
 
 /*# sourceMappingURL=app.css.map */
