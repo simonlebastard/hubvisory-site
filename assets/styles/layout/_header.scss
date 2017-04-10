@@ -30,6 +30,16 @@
     transition: border 0.7s, color 0.5s;
 }
 
+.navbar ul li.active a:after {
+    content:'';
+    height: 2px;
+    width: 30px;
+    background-color: red;
+    bottom: 0;
+    position: relative;
+    left: 0;
+}
+
 .navbar ul li a:hover {
     border-bottom: solid 1px $c-p;
     color: $c-p-light !important;
@@ -40,3 +50,9 @@
     border-color: $c-p;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -1250px;
+    visibility: hidden;
+}

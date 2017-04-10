@@ -1,11 +1,31 @@
-.c-p-bg {
+.bg-p {
     background-color: $c-p;
 }
 
-.c-g-darkest-bg {
+.bg-p-dark {
+    background-color: $c-p-dark;
+}
+
+.bg-s{
+    background-color: $c-s;
+}
+
+.bg-t {
+    background-color: $c-t;
+}
+
+.bg-g-darkest {
     background-color: $c-g-darkest;
 }
 
-.stripes-bg {
+.bg-g {
+    background-color: $c-g;
+}
+
+.bg-stripe {
     background: url('../../images/bg-stripes.png') repeat;
+}
+
+.bg-w {
+    background-color: #fff;
 }

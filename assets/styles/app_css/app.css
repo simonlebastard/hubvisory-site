@@ -30,7 +30,7 @@ html {
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important;
-  color: #43597A; }
+  color: green; }
 
 html, body, ul li, p {
   font-family: 'Open Sans', sans-serif;
@@ -92,6 +92,15 @@ h6 {
   border-bottom: solid 1px #fff;
   transition: border 0.7s, color 0.5s; }
 
+.navbar ul li.active a:after {
+  content: '';
+  height: 2px;
+  width: 30px;
+  background-color: red;
+  bottom: 0;
+  position: relative;
+  left: 0; }
+
 .navbar ul li a:hover {
   border-bottom: solid 1px #699ACF;
   color: #A9C0D9 !important; }
@@ -99,6 +108,12 @@ h6 {
 /* ==== Mobile menu ==== */
 .navbar-toggler {
   border-color: #699ACF; }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -1250px;
+  visibility: hidden; }
 
 footer {
   color: #fff; }
@@ -130,14 +145,29 @@ footer h5 {
 #footer-end-section {
   padding: 50px 0; }
 
-.c-p-bg {
+.bg-p {
   background-color: #699ACF; }
 
-.c-g-darkest-bg {
+.bg-p-dark {
+  background-color: #547BA6; }
+
+.bg-s {
+  background-color: #8EE1D8; }
+
+.bg-t {
+  background-color: #EC7484; }
+
+.bg-g-darkest {
   background-color: #2F353A; }
 
-.stripes-bg {
+.bg-g {
+  background-color: #EDEDED; }
+
+.bg-stripe {
   background: url("../../images/bg-stripes.png") repeat; }
+
+.bg-w {
+  background-color: #fff; }
 
 .btn {
   border-radius: 1px !important;
@@ -244,8 +274,74 @@ footer h5 {
   padding: 50px 0;
   text-align: center; }
 
-.stripes-bg h2 {
+.bg-stripe h2 {
   padding: 1rem 0;
   margin: 0; }
+
+#vision-cover-section {
+  padding: 50px 0;
+  color: #fff; }
+
+#vision-savoir {
+  color: #fff; }
+
+#vision-cover-section p {
+  color: #fff; }
+
+.block-info {
+  height: 300px; }
+
+.block-info p {
+  color: #fff;
+  margin: 0;
+  bottom: 0;
+  background-color: rgba(31, 41, 65, 0.75);
+  padding: 10px 20px;
+  width: 100%; }
+
+#vision-savoir-section .col-md-4 {
+  padding: 0; }
+
+.block-img-1 {
+  background: url("../../images/phone.png") center center no-repeat;
+  background-size: contain; }
+
+.block-img-2 {
+  background: url("../../images/money.png") center center no-repeat;
+  background-size: contain; }
+
+.block-img-3 {
+  background: url("../../images/v-model.png") center center no-repeat;
+  background-size: contain; }
+
+.block-number {
+  font-size: 2.5rem;
+  font-weight: 700; }
+
+#vision-gafa-section .row {
+  padding: 50px 0; }
+
+#vision-gafa h4 {
+  text-transform: uppercase;
+  line-height: 2.5rem; }
+
+#vision-view .padding-view {
+  padding: 0 6rem; }
+
+#vision-view {
+  line-height: 2.5rem; }
+
+#vision-view ul li, #vision-view ul, #vision-view p {
+  color: #fff; }
+
+.view-img-1 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.view-img-2 {
+  background: url("../../images/imaginer2.jpg") center right no-repeat;
+  background-size: cover;
+  height: 500px; }
 
 /*# sourceMappingURL=app.css.map */
