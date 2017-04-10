@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Hubvisory colors (Custom Variables)
 ========================================================= */
 /* --------------------------------------------------------
@@ -68,8 +69,7 @@ h6 {
 
 /* Header
 ========================================================= */
-/* ==== General navbar ==== */
-.navbar {
+#main-navbar.navbar {
   background-color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -77,43 +77,53 @@ h6 {
   box-shadow: rgba(29, 29, 31, 0.06667) 0px 0px 0px 0px;
   transition: box-shadow 0.5s; }
 
-/* Once scrolled (added .scrolled class with JS) */
-.navbar.scrolled {
-  box-shadow: rgba(29, 29, 31, 0.06667) 0px 10px 60px 0px; }
+#main-navbar.navbar.scrolled {
+  box-shadow: rgba(29, 29, 31, 0.12) 0px 10px 40px 0px; }
 
-/* ==== Links ==== */
-.navbar ul li {
+#main-navbar.navbar ul li {
   padding: 0 8px; }
 
-.navbar ul li a {
+#main-navbar.navbar ul li a {
   color: #699ACF !important;
   height: 33px;
-  box-sizing: border-box;
-  border-bottom: solid 1px #fff;
-  transition: border 0.7s, color 0.5s; }
+  box-sizing: border-box; }
 
-.navbar ul li.active a:after {
+#main-navbar.navbar ul li a:after {
   content: '';
-  height: 2px;
-  width: 30px;
-  background-color: red;
-  bottom: 0;
+  height: 5px;
+  width: 0;
+  background-color: #699ACF;
+  bottom: -12px;
+  left: -10%;
+  margin: 0 auto;
   position: relative;
-  left: 0; }
+  display: inline-block;
+  transition: width 0.25s ease; }
 
-.navbar ul li a:hover {
-  border-bottom: solid 1px #699ACF;
-  color: #A9C0D9 !important; }
+#main-navbar.navbar ul li a:hover:after {
+  content: '';
+  height: 5px;
+  width: 120%;
+  background-color: #699ACF;
+  bottom: -12px;
+  left: -10%;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block; }
 
-/* ==== Mobile menu ==== */
-.navbar-toggler {
+#main-navbar.navbar ul li.active a:after {
+  content: '';
+  height: 5px;
+  width: 120%;
+  background-color: #699ACF;
+  bottom: -12px;
+  left: -10%;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block; }
+
+#main-navbar.navbar-toggler {
   border-color: #699ACF; }
-
-a.anchor {
-  display: block;
-  position: relative;
-  top: -1250px;
-  visibility: hidden; }
 
 footer {
   color: #fff; }
@@ -125,7 +135,7 @@ footer ul li a {
   transition: color 0.5s; }
 
 footer ul li a:hover {
-  color: #8EE1D8 !important; }
+  color: #2FCC93 !important; }
 
 footer ul {
   list-style: none;
@@ -149,13 +159,13 @@ footer h5 {
   background-color: #699ACF; }
 
 .bg-p-dark {
-  background-color: #547BA6; }
+  background-color: #2A4868; }
 
 .bg-s {
-  background-color: #8EE1D8; }
+  background-color: #2FCC93; }
 
 .bg-t {
-  background-color: #EC7484; }
+  background-color: #DD3A56; }
 
 .bg-g-darkest {
   background-color: #2F353A; }
@@ -186,7 +196,7 @@ footer h5 {
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .btn-p-fbg:hover {
-  background-color: #547BA6;
+  background-color: #2A4868;
   color: #fff; }
 
 .btn-p-ebg {
@@ -199,7 +209,7 @@ footer h5 {
   color: #699ACF; }
 
 .btn-s-fbg {
-  background-color: #8EE1D8;
+  background-color: #2FCC93;
   color: #fff; }
 
 .btn-s-fbg:hover {
@@ -215,6 +225,14 @@ footer h5 {
   font-size: 3.5rem;
   margin: 1rem;
   color: #fff; }
+
+.fa.fa-wrench {
+  font-size: 2.7rem;
+  padding: 0.7rem;
+  margin: 1rem;
+  color: #699ACF;
+  border: solid 2px #699ACF;
+  border-radius: 50%; }
 
 .illustration {
   max-width: 450px;
@@ -278,6 +296,120 @@ footer h5 {
   padding: 1rem 0;
   margin: 0; }
 
+.img-schema {
+  background: url("../../images/schéma-roi.png") center center no-repeat;
+  background-size: contain; }
+
+.img-schema-block {
+  height: 400px; }
+
+#offre-schema, #offre-schema ul li {
+  color: #fff; }
+
+#offre-schema .padding-view {
+  padding: 0 6rem; }
+
+#offre-schema-section {
+  line-height: 2.5rem; }
+
+#offre-schema ul {
+  padding-left: 0; }
+
+.c-space {
+  height: 30px; }
+
+#offre-navbar {
+  background-color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  box-shadow: rgba(29, 29, 31, 0.05) 0px -10px 20px 5px;
+  transition: box-shadow 0.5s;
+  font-weight: 700;
+  border-bottom: solid 1px #EDEDED; }
+
+#offre-navbar.navbar ul li {
+  padding: 1rem 0.5rem; }
+
+#offre-navbar.navbar ul li a {
+  color: #2A4868;
+  box-sizing: border-box; }
+
+#offre-navbar.navbar ul li.active a {
+  color: #A9C0D9;
+  box-sizing: border-box; }
+
+#offre-navbar.navbar ul li a:after {
+  content: '';
+  display: block;
+  height: 40px;
+  width: 2px;
+  background-color: #EDEDED;
+  position: absolute;
+  margin-right: 10%;
+  top: 16px;
+  margin-left: -20px; }
+
+.tab-content {
+  width: 100%; }
+
+#offre-tabs h4 {
+  color: #699ACF;
+  text-transform: uppercase; }
+
+.dual-row h4 {
+  padding: 2.5rem 0 2rem; }
+
+#offre-tabs ul {
+  list-style: none;
+  padding: 0; }
+
+#offre-tabs ul li {
+  padding: 0 0 3rem;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.offre-circle {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #2FCC93;
+  margin: auto;
+  display: block;
+  margin-top: 2rem; }
+
+.offre-circle-container {
+  background: linear-gradient(to top, #2FCC93, #2FCC93) repeat-y center;
+  background-size: 4px 4px;
+  margin-top: 6.5rem; }
+
+#offre-tabs span {
+  padding: 0 0 0 0.4rem; }
+
+#offre-tabs span:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #2FCC93;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 2px 0.75rem; }
+
+#offre-tabs span:last-child:after {
+  content: none; }
+
+.outils-box {
+  border: solid 3px #699ACF;
+  margin: 0 0 4rem;
+  padding: 0 0 1rem; }
+
+.outils-box h4 {
+  background-color: #fff;
+  margin: -1rem auto 0;
+  width: 50%; }
+
 #vision-cover-section {
   padding: 50px 0;
   color: #fff; }
@@ -295,7 +427,7 @@ footer h5 {
   color: #fff;
   margin: 0;
   bottom: 0;
-  background-color: rgba(31, 41, 65, 0.75);
+  background-color: rgba(31, 41, 65, 0.9);
   padding: 10px 20px;
   width: 100%; }
 
@@ -330,6 +462,9 @@ footer h5 {
 
 #vision-view {
   line-height: 2.5rem; }
+
+#vision-view ul {
+  padding-left: 0; }
 
 #vision-view ul li, #vision-view ul, #vision-view p {
   color: #fff; }

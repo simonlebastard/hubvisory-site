@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Case</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+         <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    </head>
+    <body>        
+        <div class="container">
+            <h3>Tabs With Dropdown Menu</h3>
+            <ul class="nav nav-tabs" role="tablist" data-tabs="tabs">
+                <li class="active"><a href="#coursera" data-toggle="tab">Coursera</a></li>
+                <li><a href="#research" data-toggle="tab">Research</a></li>
+                <li><a href="#blog" data-toggle="tab">Blog</a></li>
+            </ul>            
+            <div class="tab-content">                
+                <div class="tab-pane fade in active" id="coursera">
+                    <div class="col-sm-10"> coursera tab Div with class col-sm-10</div>
+                    <div class="col-sm-2">coursera tab Div with class col-sm-2</div>
+                </div>
+
+                <div class="tab-pane fade" id="research">
+                    <div class="col-sm-10"> research tab Div with class col-sm-10</div>
+                    <div class="col-sm-2">research tab Div with class col-sm-2</div>
+                </div>
+
+                <div class="tab-pane fade" id="blog">
+                    <div class="col-sm-10"> blog tab Div with class col-sm-10</div>
+                    <div class="col-sm-2">blog tab Div with class col-sm-2</div>
+                </div>
+            </div>
+        </div>        
+
+
+          <nav id="offre-navbar" class="navbar navbar-light ">
+          </nav>
+        <ul class="nav justify-content-center nav-tabs" role="tablist" data-tabs="tabs">
+            <li class="nav-item active">
+                <a class="nav-link active" data-toggle="tab" href="#strategy" role="tab">Product Strategy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#design" role="tab">Product Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#ownership" role="tab">Product Ownership</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#marketing" role="tab">Product Marketing</a>
+            </li>
+        </ul>
+<div class="tab-content">
+    <div class="tab-pane active" id="strategy" role="tabpanel">Ahh</div>
+<div class="tab-pane" id="design" role="tabpanel">Ohhh</div>
+  <div class="tab-pane" id="ownership" role="tabpanel">Ihhh</div>
+  <div class="tab-pane" id="marketing" role="tabpanel">Ehhh</div>
+  </div>
+    </body>
+</html>

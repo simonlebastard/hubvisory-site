@@ -1,0 +1,139 @@
+.img-schema{
+    background: url('../../images/schéma-roi.png') center center no-repeat;
+    background-size: contain;
+}
+
+.img-schema-block {
+    height: 400px;
+}
+
+#offre-schema, #offre-schema ul li {
+    color: #fff;
+}
+
+#offre-schema .padding-view {
+    padding: 0 6rem;
+}
+
+#offre-schema-section {
+    line-height: 2.5rem;
+}
+
+#offre-schema ul {
+    padding-left: 0;
+}
+
+.c-space {
+    height: 30px;
+}
+
+// Offre Navbar
+
+#offre-navbar {
+    background-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    box-shadow: rgba(29, 29, 31, 0.05) 0px -10px 20px 5px;
+    transition: box-shadow 0.5s;
+    font-weight: 700;
+    border-bottom: solid 1px $c-g;
+}
+
+#offre-navbar.navbar ul li {
+    padding: 1rem 0.5rem;
+}
+
+#offre-navbar.navbar ul li a {
+    color: $c-p-dark;   
+    box-sizing: border-box;
+}
+
+#offre-navbar.navbar ul li.active a {
+    color: $c-p-light;   
+    box-sizing: border-box;
+}
+
+#offre-navbar.navbar ul li a:after {
+    content: '';
+    display: block;
+    height: 40px;
+    width: 2px;
+    background-color: $c-g;
+    position: absolute;
+    margin-right: 10%;
+    top: 16px;
+    margin-left: -20px;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+#offre-tabs h4{
+    color: $c-p;
+    text-transform: uppercase;  
+}
+
+.dual-row h4{
+ padding: 2.5rem 0 2rem;
+}
+
+#offre-tabs ul {
+    list-style: none;
+    padding: 0;
+}
+
+#offre-tabs ul li {
+    padding: 0 0 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.offre-circle {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:3px solid $c-s;
+    margin:auto;
+    display: block;
+    margin-top: 2rem;
+}
+
+.offre-circle-container {
+    background:linear-gradient(to top,$c-s,$c-s) repeat-y center;
+    background-size:4px 4px;
+    margin-top: 6.5rem;
+}
+
+#offre-tabs span {
+    padding: 0 0 0 0.4rem;
+}
+
+#offre-tabs span:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $c-s;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 2px 0.75rem;
+}
+#offre-tabs span:last-child:after {
+    content: none;
+}
+
+.outils-box {
+    border: solid 3px $c-p;
+    margin: 0 0 4rem;
+    padding: 0 0 1rem;
+}
+
+.outils-box h4 {
+    background-color: #fff;
+    margin: -1rem auto 0;
+    width: 50%;
+}

@@ -1,8 +1,8 @@
 /* Header
 ========================================================= */
 
-/* ==== General navbar ==== */
-.navbar {
+//  General navbar 
+#main-navbar.navbar {
     background-color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -11,48 +11,70 @@
     transition: box-shadow 0.5s;
 }
 
-/* Once scrolled (added .scrolled class with JS) */
-.navbar.scrolled {
-    box-shadow: rgba(29, 29, 31, 0.0666667) 0px 10px 60px 0px;
+// Once scrolled (added .scrolled class with JS)
+#main-navbar.navbar.scrolled {
+    box-shadow: rgba(29, 29, 31, 0.12) 0px 10px 40px 0px;
 }
 
-/* ==== Links ==== */
+// Links
 
-.navbar ul li {
+#main-navbar.navbar ul li {
     padding: 0 8px;
 }
 
-.navbar ul li a {
+#main-navbar.navbar ul li a {
     color: $c-p !important;   
     height: 33px; 
     box-sizing: border-box;
-    border-bottom: solid 1px #fff;
-    transition: border 0.7s, color 0.5s;
 }
 
-.navbar ul li.active a:after {
+#main-navbar.navbar ul li a:after {
     content:'';
-    height: 2px;
-    width: 30px;
-    background-color: red;
-    bottom: 0;
+    height: 5px;
+    width: 0;
+    background-color: $c-p;
+    bottom: -12px;
+    left: -10%;
+    margin : 0 auto;
     position: relative;
-    left: 0;
+    display: inline-block;
+    transition: width 0.25s ease;
 }
 
-.navbar ul li a:hover {
-    border-bottom: solid 1px $c-p;
-    color: $c-p-light !important;
+// Links on hover
+
+
+#main-navbar.navbar ul li a:hover:after {
+    content:'';
+    height: 5px;
+    width: 120%;
+    background-color: $c-p;
+    bottom: -12px;
+    left: -10%;
+    margin : 0 auto;
+    position: relative;
+    display: inline-block;
 }
 
-/* ==== Mobile menu ==== */
-.navbar-toggler {
+
+
+// Active links
+
+#main-navbar.navbar ul li.active a:after {
+    content:'';
+    height: 5px;
+    width: 120%;
+    background-color: $c-p;
+    bottom: -12px;
+    left: -10%;
+    margin : 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+// Mobile menu 
+
+#main-navbar.navbar-toggler {
     border-color: $c-p;
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -1250px;
-    visibility: hidden;
-}

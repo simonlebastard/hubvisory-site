@@ -18,7 +18,7 @@
     color: #fff;
     margin: 0;
     bottom: 0;
-    background-color: rgba(31, 41, 65, 0.75);
+    background-color: rgba(31, 41, 65, 0.9);
     padding: 10px 20px;
     width: 100%;
 }
@@ -61,6 +61,10 @@ padding: 0;
 
 #vision-view {
     line-height: 2.5rem;
+}
+
+#vision-view ul {
+    padding-left: 0;
 }
 
 #vision-view ul li, #vision-view ul, #vision-view p {
