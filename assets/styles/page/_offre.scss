@@ -54,17 +54,17 @@
     box-sizing: border-box;
 }
 
-#offre-navbar.navbar ul li a:after {
+#offre-navbar.navbar ul li a:before {
     content: '';
     display: block;
     height: 40px;
     width: 2px;
     background-color: $c-g;
     position: absolute;
-    margin-right: 10%;
     top: 16px;
     margin-left: -20px;
 }
+
 
 .tab-content {
     width: 100%;
@@ -110,6 +110,8 @@
 
 #offre-tabs span {
     padding: 0 0 0 0.4rem;
+    letter-spacing: 2px;
+    color: $body-color;
 }
 
 #offre-tabs span:after {
@@ -120,7 +122,7 @@
     background-color: $c-s;
     position: relative;
     display: inline-block;
-    margin: 0 0 2px 0.75rem;
+    margin: 0 0 2px 0.40rem;
 }
 #offre-tabs span:last-child:after {
     content: none;

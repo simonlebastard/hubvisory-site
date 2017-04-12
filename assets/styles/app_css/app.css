@@ -50,7 +50,8 @@ h2 {
 
 h3 {
   font-size: 1.5rem !important;
-  padding: 0.8rem 0; }
+  padding: 0.8rem 0;
+  font-weight: 700 !important; }
 
 h4 {
   font-size: 1.3rem !important;
@@ -181,7 +182,7 @@ footer h5 {
 
 .btn {
   border-radius: 1px !important;
-  margin: 0 15px !important;
+  margin: 0 15px;
   text-transform: uppercase;
   box-shadow: rgba(29, 29, 31, 0.2) 0px 10px 60px 0px !important;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -233,6 +234,11 @@ footer h5 {
   color: #699ACF;
   border: solid 2px #699ACF;
   border-radius: 50%; }
+
+#social-network .fa.fa-linkedin, #social-network .fa.fa-twitter, #social-network .fa.fa-facebook {
+  font-size: 3.5rem;
+  margin: 1rem 2rem;
+  color: #699ACF; }
 
 .illustration {
   max-width: 450px;
@@ -296,6 +302,29 @@ footer h5 {
   padding: 1rem 0;
   margin: 0; }
 
+#contact-form-section {
+  padding: 50px 0 30px; }
+
+.form-box {
+  margin: 3rem 0;
+  padding: 3rem 2rem 2rem;
+  box-shadow: rgba(29, 29, 31, 0.12) 0px 10px 40px 0px; }
+
+#example-text-input, #example-email-input, #exampleTextarea {
+  margin: 0 0 2rem;
+  padding: 1rem; }
+
+#contact-form-section .form-control {
+  border: solid 2px #699ACF;
+  opacity: 0.65; }
+
+.google-map {
+  padding: 1rem 0;
+  filter: grayscale(100%); }
+
+#social-network {
+  padding: 5rem 0; }
+
 .img-schema {
   background: url("../../images/schéma-roi.png") center center no-repeat;
   background-size: contain; }
@@ -339,14 +368,13 @@ footer h5 {
   color: #A9C0D9;
   box-sizing: border-box; }
 
-#offre-navbar.navbar ul li a:after {
+#offre-navbar.navbar ul li a:before {
   content: '';
   display: block;
   height: 40px;
   width: 2px;
   background-color: #EDEDED;
   position: absolute;
-  margin-right: 10%;
   top: 16px;
   margin-left: -20px; }
 
@@ -385,7 +413,9 @@ footer h5 {
   margin-top: 6.5rem; }
 
 #offre-tabs span {
-  padding: 0 0 0 0.4rem; }
+  padding: 0 0 0 0.4rem;
+  letter-spacing: 2px;
+  color: #5C7999; }
 
 #offre-tabs span:after {
   content: '';
@@ -395,7 +425,7 @@ footer h5 {
   background-color: #2FCC93;
   position: relative;
   display: inline-block;
-  margin: 0 0 2px 0.75rem; }
+  margin: 0 0 2px 0.40rem; }
 
 #offre-tabs span:last-child:after {
   content: none; }
@@ -478,5 +508,100 @@ footer h5 {
   background: url("../../images/imaginer2.jpg") center right no-repeat;
   background-size: cover;
   height: 500px; }
+
+#team-photo-section {
+  padding: 50px 0; }
+
+.team-photo1 {
+  background: url("../../images/money.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo2 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo3 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  height: 300px; }
+
+.team-photo4 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo5 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo6 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo7 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo8 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo9 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo10 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo11 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  height: 300px; }
+
+.team-photo12 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-photo13 {
+  background: url("../../images/phone.png") center right no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.team-join p {
+  line-height: 2rem; }
+
+.team-join h3 {
+  text-transform: uppercase; }
+
+.team-join p, .team-join h3 {
+  padding: 0 2rem; }
+
+.team-join .btn {
+  margin: 0 2rem; }
+
+div[class*=team-photo] p {
+  width: 100%;
+  background-color: rgba(31, 41, 65, 0.9);
+  margin-bottom: 0; }
+
+.nom {
+  color: #fff;
+  display: block;
+  width: 100%; }
+
+.job {
+  color: #fff;
+  display: block;
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */

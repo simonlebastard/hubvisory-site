@@ -1,0 +1,115 @@
+#team-photo-section {
+    padding: 50px 0;
+} 
+
+
+.team-photo1 {
+    background: url('../../images/money.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo2 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo3 {
+    background: url('../../images/imaginer.jpg') center right no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.team-photo4 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo5 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo6 {
+    background: url('../../images/imaginer.jpg') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo7 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo8 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo9 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo10 {
+    background: url('../../images/imaginer.jpg') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo11 {
+    background: url('../../images/imaginer.jpg') center right no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.team-photo12 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-photo13 {
+    background: url('../../images/phone.png') center right no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.team-join p {
+    line-height: 2rem;
+}
+.team-join h3 {
+    text-transform: uppercase;
+}
+
+.team-join p, .team-join h3 {
+    padding: 0 2rem;
+}
+
+ .team-join .btn {
+     margin: 0 2rem;
+ }
+
+ div[class*=team-photo] p {
+     width: 100%;
+     background-color: $c-p-dark-t;
+     margin-bottom: 0;
+ }
+
+.nom {
+     color: #fff;
+    display: block;
+    width: 100%;
+ }
+
+ .job {
+     color: #fff;
+    display: block;
+    width: 100%;
+ }

@@ -18,3 +18,9 @@
     border: solid 2px $c-p;
     border-radius: 50%;
 }
+
+#social-network .fa.fa-linkedin, #social-network .fa.fa-twitter, #social-network .fa.fa-facebook {
+    font-size: 3.5rem;
+    margin: 1rem 2rem;
+    color: $c-p;
+}

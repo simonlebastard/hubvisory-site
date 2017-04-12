@@ -1,0 +1,28 @@
+#contact-form-section {
+    padding: 50px 0 30px;
+}
+
+.form-box {
+    margin: 3rem 0;
+    padding: 3rem 2rem 2rem;
+    box-shadow: rgba(29, 29, 31, 0.12) 0px 10px 40px 0px;
+}
+
+#example-text-input, #example-email-input, #exampleTextarea {
+    margin: 0 0 2rem;
+    padding: 1rem;
+}
+
+#contact-form-section .form-control {
+    border: solid 2px $c-p;
+    opacity: 0.65;
+}
+
+.google-map {
+    padding: 1rem 0;
+    filter: grayscale(100%);
+ }
+
+ #social-network {
+    padding: 5rem 0;
+ }
