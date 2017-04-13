@@ -8,6 +8,10 @@
     <meta name="author" content="Hubvisory">
     <link rel="icon" href="assets/images/faveicon.png">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
     <title>Hubvisory - Page d'accueil</title>
 
     <!-- CSS stylesheet from CSS-->
@@ -40,7 +44,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="file:///Users/pierrecathelin/Documents/Projects/Hubvisory/Code/hubvisory-site/offre.html">Offre</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="file:///Users/pierrecathelin/Documents/Projects/Hubvisory/Code/hubvisory-site/equipe.html">L'équipe</a>
                 </li>
                 <li class="nav-item">
@@ -53,44 +57,40 @@
         </div>
     </nav>
 
-    <!-- Team photo
+    <!-- Schema section
    ========================================================= -->
+
     <section id="team-photo">
         <div id="team-photo-section">
             <div class="container">
 
-                <!-- ====== Row 1 ====== -->
-                <div class="row no-gutters">
-
-                    <div class="col-md-3">
-                        <div class="row no-gutters">
-                            <div class="col-12 team-photo1 d-flex align-items-end text-center">
-                                <p>
-                                <span class="nom">Matthieu</span>
-                                <span class="job">Commercial Manager</span>
-                            </p>
-                            </div>
-                            <!-- Col #1 -->
-                            <div class="col-12 team-photo2 d-flex align-items-end text-center">
-                                <p>
-                                <span class="nom">Matthieu</span>
-                                <span class="job">Commercial Manager</span>
-                            </p>
-                            </div>
-                            <!-- Col #2 -->
+                <!-- ====== Row #1 ====== -->
+                <div class="row">
+                    <div class="team-img-1 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Matthieu Harder</span> </br>
+                            <span class="member-job"> Commercial Manager </span>
+                            <span class="citation"> Je suis toujours la même idée : je commence petit et je perturbe tout pour créer quelque chose d’important </br>- <strong> Xavier Niel </strong></span>
                         </div>
-                        <!-- Row -->
                     </div>
-                    <!-- Col #1 -->
-                    <div class="col-md-9 team-photo3">
+                    <!-- Img #1 -->
+                    <div class="global-img-1">
                     </div>
-                    <!-- Col #2 -->
+                    <!-- Img #2 -->
+                    <div class="team-img-2 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Benoit Rosier </span> </br>
+                            <span class="member-job"> Co-Founder </span>
+                            <span class="citation"> Maecenas vestibulum enim nec nunc mollis malesuada. Colocooj sdfha khdfgs sdhjgf h sdgfh sdfhg dfashg  </span>
+                        </div>
+                    </div>
+                    <!-- Img #3 -->
                 </div>
                 <!-- Row -->
 
-                <!-- ====== Row 2 ====== -->
+                <!-- ====== Row #2 ====== -->
                 <div class="row">
-                    <div class="col-md-9 d-flex align-items-center team-join">
+                    <div class="team-recrute d-flex align-items-center">
                         <div>
                             <h3> Tu souhaites rejoindre l'équipe ?</h3>
                             <p>Hubvisory est une aventure unique. C’est une aventure entrepreneuriale. C’est une aventure digitale.
@@ -99,58 +99,87 @@
                             <a href="#" class="btn btn-p-fbg">Je rejoins l'équipe</a>
                         </div>
                     </div>
-                    <!-- Col #1 -->
-                    <div class="col-md-3">
-                        <div class="row">
-                            <div class="col-12 team-photo4">
-                            </div>
-                            <!-- Col #1 -->
-                            <div class="col-12 team-photo5">
-                            </div>
-                            <!-- Col #2 -->
+                    <!-- Img #1 -->
+                    <div class="team-img-3 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Clément </span> </br>
+                            <span class="member-job"> Product Manager</span>
+                            <span class="citation"> Especially in technology, we need revolutionary change, not incremental change.<br>-<strong>Larry Page</strong></br> </span>
                         </div>
                     </div>
-                    <!-- Col #2 -->
-
+                    <!-- Img #2 -->
+                    <div class="team-img-4 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Pierre </span> </br>
+                            <span class="member-job"> Co-founder </span>
+                            <span class="citation"> Many a false step was made by standing still </br>-<strong> Tim Ferris</strong>  </span>
+                        </div>
+                    </div>
+                    <!-- Img #3 -->
+                </div>
+                <!-- ====== Row #3 ====== -->
+                <div class="row">
+                    <div class="global-img-2">
+                    </div>
+                    <!-- Img #1 -->
+                    <div class="team-img-5 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Guy </span> </br>
+                            <span class="member-job"> Développeur </span>
+                            <span class="citation"> Le génie c'est 1% d'inspiration et 99% de transpiration" </br>- <strong> Thomas Edison </strong> </span>
+                        </div>
+                    </div>
+                    <!-- Img #2 -->
                 </div>
                 <!-- Row -->
 
-                <!-- ====== Row 3 ====== -->
+                <!-- ====== Row #4 ====== -->
                 <div class="row">
-                    <div class="col-md-9 team-photo6">
+                    <div class="team-img-6 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Laura </span> </br>
+                            <span class="member-job"> Product Manager </span>
+                            <span class="citation"> Done is better than perfect </br>- <strong> Sheryl Sandberg </strong> </span>
+                        </div>
                     </div>
-                    <!-- Col #1 -->
-                    <div class="col-md-3 team-photo7">
+                    <!-- Img #1 -->
+                    <div class="team-img-7 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Oussama </span> </br>
+                            <span class="member-job"> Product Manager </span>
+                            <span class="citation"> Le monde change à une vitesse folle. Le fort ne battra plus le faible. Dorénavant ce sera le rapide qui battra le lent. </br>-<strong> Rupert Murdoch</strong></span>
+                        </div>
                     </div>
-                    <!-- Col #2 -->
+                    <!-- Img #2 -->
+                    <div class="global-img-3">
+                    </div>
+                    <!-- Img #3 -->
                 </div>
                 <!-- Row -->
 
-                <!-- ====== Row 4 ====== -->
+                <!-- ====== Row #5 ====== -->
                 <div class="row">
-                    <div class="col-md-3 team-photo8">
+                    <div class="global-img-4">
                     </div>
-                    <!-- Col #1 -->
-                    <div class="col-md-3 team-photo9">
+                    <div class="team-img-8 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Martin </span> </br>
+                            <span class="member-job"> Co-Founder</span>
+                            <span class="citation"> Maecenas vestibulum enim nec nunc mollis malesuada. </span>
+                        </div>
                     </div>
-                    <!-- Col #2 -->
-                    <div class="col-md-6 team-photo10">
+                    <!-- Img #1 -->
+                    <div class="team-img-9 d-flex align-items-end">
+                        <div class="team-info">
+                            <span class="member-name"> Simon </span> </br>
+                            <span class="member-job"> Product Designer </span>
+                            <span class="citation"> “L’art n’est pas d’arriver avec des idées neuves mais d’interpréter ces idées qui nous entourent depuis toujours </br>- <strong> George Lucas </strong></span>
+                        </div>
                     </div>
-                    <!-- Col #3 -->
-                </div>
-                <!-- Row -->
-
-                <!-- ====== Row 5 ====== --> 
-                <div class="row">
-                    <div class="col-md-6 team-photo11">
+                    <!-- Img #2 -->
+                    <div class="global-img-5">
                     </div>
-                    <!-- Col #1 -->
-                    <div class="col-md-3 team-photo12">
-                    </div>
-                    <!-- Col #2 -->
-                    <div class="col-md-3 team-photo13">
-                    </div>
-                    <!-- Col #3 -->
+                    <!-- Img #3 -->
                 </div>
                 <!-- Row -->
 
@@ -159,8 +188,6 @@
         </div>
         <!-- Section -->
     </section>
-
-
 
     <!-- Footer
 ========================================================= -->
@@ -227,12 +254,12 @@
 ========================================================= -->
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main2.js"></script>
     <!-- Font awasomes icons -->
     <script src="https://use.fontawesome.com/a87e8658c9.js"></script>
 
