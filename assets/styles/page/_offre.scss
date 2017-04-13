@@ -40,29 +40,51 @@
     border-bottom: solid 1px $c-g;
 }
 
-#offre-navbar.navbar ul li {
-    padding: 1rem 0.5rem;
+#offre-navbar ul {
+    list-style: none;
+    margin: 0;
 }
 
-#offre-navbar.navbar ul li a {
+@media ( min-width: 915px ) {
+#offre-navbar .nav-link, #offre-navbar .nav-item {
+    display: inline;
+}
+}
+
+@media ( max-width: 915px ) {
+    #offre-navbar .nav-link, #offre-navbar .nav-item {
+    display: block;
+    text-align: center;
+}
+}
+
+#offre-navbar.nav {
+    padding: 1.5rem 0 1.4rem;
+}
+
+#offre-navbar ul {
+    padding: 0;
+}
+
+
+#offre-navbar ul li {
+    padding: 0 0.5rem;
+}
+
+#offre-navbar ul li a {
     color: $c-p-dark;   
     box-sizing: border-box;
 }
 
-#offre-navbar.navbar ul li.active a {
+#offre-navbar ul li.active a {
     color: $c-p-light;   
     box-sizing: border-box;
 }
 
-#offre-navbar.navbar ul li a:before {
-    content: '';
-    display: block;
-    height: 40px;
-    width: 2px;
-    background-color: $c-g;
-    position: absolute;
-    top: 16px;
-    margin-left: -20px;
+
+
+#offre-tabs .container {
+    padding: 0 2rem;
 }
 
 
@@ -84,22 +106,34 @@
     padding: 0;
 }
 
+
 #offre-tabs ul li {
-    padding: 0 0 3rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+@media ( min-width: 768px ) {
+#offre-tabs ul li {
+    height: 5rem; 
+}
+}
+
+@media ( max-width: 768px ) {
+#offre-tabs ul li {
+    height: 8rem; 
+}
 }
 
 
 .offre-circle {
     background: #fff;
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     border:3px solid $c-s;
     margin:auto;
     display: block;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .offre-circle-container {
@@ -139,3 +173,8 @@
     margin: -1rem auto 0;
     width: 50%;
 }
+
+// Test
+
+
+

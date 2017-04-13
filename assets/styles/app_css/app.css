@@ -357,26 +357,36 @@ footer h5 {
   font-weight: 700;
   border-bottom: solid 1px #EDEDED; }
 
-#offre-navbar.navbar ul li {
-  padding: 1rem 0.5rem; }
+#offre-navbar ul {
+  list-style: none;
+  margin: 0; }
 
-#offre-navbar.navbar ul li a {
+@media (min-width: 915px) {
+  #offre-navbar .nav-link, #offre-navbar .nav-item {
+    display: inline; } }
+@media (max-width: 915px) {
+  #offre-navbar .nav-link, #offre-navbar .nav-item {
+    display: block;
+    text-align: center; } }
+#offre-navbar.nav {
+  padding: 1.5rem 0 1.4rem; }
+
+#offre-navbar ul {
+  padding: 0; }
+
+#offre-navbar ul li {
+  padding: 0 0.5rem; }
+
+#offre-navbar ul li a {
   color: #2A4868;
   box-sizing: border-box; }
 
-#offre-navbar.navbar ul li.active a {
+#offre-navbar ul li.active a {
   color: #A9C0D9;
   box-sizing: border-box; }
 
-#offre-navbar.navbar ul li a:before {
-  content: '';
-  display: block;
-  height: 40px;
-  width: 2px;
-  background-color: #EDEDED;
-  position: absolute;
-  top: 16px;
-  margin-left: -20px; }
+#offre-tabs .container {
+  padding: 0 2rem; }
 
 .tab-content {
   width: 100%; }
@@ -393,19 +403,24 @@ footer h5 {
   padding: 0; }
 
 #offre-tabs ul li {
-  padding: 0 0 3rem;
   text-transform: uppercase;
   font-weight: bold; }
 
+@media (min-width: 768px) {
+  #offre-tabs ul li {
+    height: 5rem; } }
+@media (max-width: 768px) {
+  #offre-tabs ul li {
+    height: 8rem; } }
 .offre-circle {
   background: #fff;
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   border: 3px solid #2FCC93;
   margin: auto;
   display: block;
-  margin-top: 2rem; }
+  margin-top: 3rem; }
 
 .offre-circle-container {
   background: linear-gradient(to top, #2FCC93, #2FCC93) repeat-y center;
@@ -439,6 +454,66 @@ footer h5 {
   background-color: #fff;
   margin: -1rem auto 0;
   width: 50%; }
+
+.team-img-2 {
+  background: url("../../images/money.png") center right no-repeat;
+  background-size: cover;
+  width: 20%;
+  padding-top: calc(20% - 3rem); }
+
+.team-img-3 {
+  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background-size: cover;
+  width: 60%;
+  padding-top: calc(20% - 3rem); }
+
+.team-img-1 {
+  background: url("../../images/matthieu-sprite.png") center left no-repeat;
+  background-size: cover;
+  transition: all 0s; }
+
+@media (min-width: 768px) {
+  .team-img-1 {
+    width: 200px;
+    height: 200px; }
+
+  .team-img-1:hover {
+    background: url("../../images/matthieu-sprite.png") center right no-repeat;
+    background-size: cover; } }
+@media (max-width: 768px) {
+  .team-img-1 {
+    width: 50%;
+    padding-top: calc(50% - 3rem);
+    margin-left: 25%; } }
+.team-img-info {
+  vertical-align: middle; }
+
+.team-img-info .member-name {
+  background-color: rgba(31, 41, 65, 0.9);
+  text-align: center;
+  color: #fff;
+  height: 200px; }
+
+.team-img-info span.citation {
+  background-color: rgba(31, 41, 65, 0.9);
+  text-align: center;
+  color: #fff;
+  height: 0px;
+  width: 0px;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.team-img-1:hover .team-img-info .member-name {
+  height: 0px;
+  width: 0px; }
+
+.team-img-1:hover .team-img-info .citation {
+  height: 200px;
+  width: 200px; }
+
+.member-name {
+  text-transform: uppercase; }
 
 #vision-cover-section {
   padding: 50px 0;

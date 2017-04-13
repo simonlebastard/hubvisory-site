@@ -1,0 +1,76 @@
+
+.team-img-2 {
+    background: url('../../images/money.png') center right no-repeat;
+    background-size: cover;
+    width: 20%;
+    padding-top: calc(20% - 3rem);
+}
+
+.team-img-3 {
+    background: url('../../images/imaginer.jpg') center right no-repeat;
+    background-size: cover;
+    width: 60%;
+    padding-top: calc(20% - 3rem);
+}
+
+.team-img-1 {
+    background: url('../../images/matthieu-sprite.png') center left no-repeat;
+    background-size: cover;
+    transition: all 0s;
+}
+
+
+@media ( min-width: 768px ) {
+.team-img-1 {
+    width: 200px;
+    height: 200px;
+}
+.team-img-1:hover {
+    background: url('../../images/matthieu-sprite.png') center right no-repeat;
+    background-size: cover;
+}
+}
+
+@media ( max-width: 768px ) {
+.team-img-1 {
+    width: 50%;
+    padding-top: calc(50% - 3rem);
+    margin-left: 25%;
+}
+}
+
+.team-img-info {
+    vertical-align: middle;
+}
+
+.team-img-info .member-name{
+    background-color: $c-p-dark-t;
+    text-align: center;
+    color: #fff;
+    height:200px;
+}
+
+.team-img-info span.citation {
+    background-color: $c-p-dark-t;
+    text-align: center;
+    color: #fff;
+    height: 0px;
+    width: 0px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.team-img-1:hover .team-img-info .member-name{
+    height: 0px;
+    width: 0px;
+}
+
+.team-img-1:hover .team-img-info .citation{
+ height: 200px;
+ width: 200px;
+}
+
+.member-name {
+    text-transform: uppercase;
+}
