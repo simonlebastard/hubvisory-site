@@ -10,12 +10,14 @@
     text-align: center;
     color: #fff;
     width: 100%;
+
 }
 
 .team-info span.citation {
     text-align: center;
     color: #fff;
     display: none;
+        padding: 1rem;
 }
 
 .member-name {
@@ -41,7 +43,7 @@
 // Image 3
 
 .global-img-1 {
-    background: url('../../images/team.png') center bottom no-repeat;
+    background: url('../../images/team.png') center top no-repeat;
     background-size: cover;
 }
 
@@ -62,7 +64,7 @@
 // Image 6
 
 .global-img-2 {
-    background: url('../../images/love.png') center center no-repeat;
+    background: url('../../images/cactus.png') center center no-repeat;
     background-size: cover;
 }
 

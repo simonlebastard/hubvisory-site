@@ -455,187 +455,14 @@ footer h5 {
   margin: -1rem auto 0;
   width: 50%; }
 
-.team-info {
-  background-color: rgba(31, 41, 65, 0.85);
-  text-align: center;
-  color: #fff;
-  width: 100%; }
+#realisations-section {
+  padding: 50px 0 75px; }
 
-.team-info span.citation {
-  text-align: center;
-  color: #fff;
-  display: none; }
+#realisations-section .btn {
+  margin: 1rem 0; }
 
-.member-name {
-  text-transform: uppercase; }
-
-.team-img-1 {
-  background: #699ACF url("../../images/matthieu-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.team-img-2 {
-  background: #DD3A56 url("../../images/benoit-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.global-img-1 {
-  background: url("../../images/team.png") center bottom no-repeat;
-  background-size: cover; }
-
-.team-img-3 {
-  background: #2A4868 url("../../images/clement-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.team-img-4 {
-  background: #DD3A56 url("../../images/pierre-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.global-img-2 {
-  background: url("../../images/love.png") center center no-repeat;
-  background-size: cover; }
-
-.team-img-5 {
-  background: #2FCC93 url("../../images/guy-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.team-img-6 {
-  background: #2FCC93 url("../../images/laura-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.team-img-7 {
-  background: #2A4868 url("../../images/oussama-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.global-img-3 {
-  background: url("../../images/team-socks.png") center center no-repeat;
-  background-size: cover; }
-
-.global-img-4 {
-  background: url("../../images/oncle-sam.png") center center no-repeat;
-  background-size: cover; }
-
-.team-img-8 {
-  background: #DD3A56 url("../../images/martin-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.team-img-9 {
-  background: #2A4868 url("../../images/simon-sprite.png") center left no-repeat;
-  background-size: cover; }
-
-.global-img-5 {
-  background: url("../../images/carnet.png") center center no-repeat;
-  background-size: cover; }
-
-@media (min-width: 768px) {
-  div[class*=team-img] {
-    width: 200px;
-    height: 200px; }
-
-  .global-img-1 {
-    width: calc( 100% - 200px);
-    height: 400px; }
-
-  .global-img-2 {
-    width: calc( 100% - 200px);
-    height: 200px; }
-
-  .global-img-3 {
-    width: calc( 100% - 400px);
-    height: 200px; }
-
-  .global-img-4 {
-    width: calc( 100% - 400px);
-    height: 400px; }
-
-  .global-img-5 {
-    width: 400px;
-    height: 200px;
-    margin-left: calc( 100% - 400px);
-    margin-top: -200px; }
-
-  .team-img-2 {
-    margin-top: -200px; }
-
-  .team-img-4 {
-    margin-top: -200px;
-    margin-left: calc(100% - 200px); }
-
-  .team-img-5 {
-    margin-top: -200px;
-    margin-left: calc(100% - 200px); }
-
-  .team-img-1:hover {
-    background: url("../../images/matthieu-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-2:hover {
-    background: url("../../images/benoit-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-3:hover {
-    background: url("../../images/clement-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-4:hover {
-    background: url("../../images/pierre-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-5:hover {
-    background: url("../../images/guy-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-6:hover {
-    background: url("../../images/laura-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-7:hover {
-    background: url("../../images/oussama-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-8:hover {
-    background: url("../../images/martin-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  .team-img-9:hover {
-    background: url("../../images/simon-sprite.png") center right no-repeat;
-    background-size: cover; }
-
-  div[class*=team-img]:hover .team-info .member-name, div[class*=team-img]:hover .team-info .member-job {
-    display: none; }
-
-  div[class*=team-img]:hover .team-info .citation {
-    display: block;
-    padding: 1rem; }
-
-  div[class*=team-img]:hover .team-info {
-    height: 200px; }
-
-  .team-recrute {
-    width: calc(100% - 200px);
-    height: 400px; } }
-@media (max-width: 768px) {
-  div[class*=team-img] {
-    width: 50%;
-    padding-top: calc(50% - 3rem);
-    margin-left: 25%;
-    margin-bottom: 30px; }
-
-  .team-recrute {
-    text-align: center; }
-
-  .team-recrute .btn {
-    margin-bottom: 3rem; } }
-.team-recrute p {
-  line-height: 2rem; }
-
-.team-recrute h3 {
-  text-transform: uppercase; }
-
-.team-recrute p, .team-recrute h3 {
-  padding: 0 3rem; }
-
-.team-recrute .btn {
-  margin-left: 3rem;
-  margin-right: 3rem; }
+.realisation-project {
+  padding: 50px 0; }
 
 #vision-cover-section {
   padding: 50px 0;
@@ -654,7 +481,7 @@ footer h5 {
   color: #fff;
   margin: 0;
   bottom: 0;
-  background-color: rgba(31, 41, 65, 0.85);
+  background-color: rgba(31, 41, 65, 0.75);
   padding: 10px 20px;
   width: 100%; }
 
@@ -710,7 +537,7 @@ footer h5 {
   padding: 50px 0; }
 
 .team-info {
-  background-color: rgba(31, 41, 65, 0.85);
+  background-color: rgba(31, 41, 65, 0.75);
   text-align: center;
   color: #fff;
   width: 100%; }
@@ -718,7 +545,8 @@ footer h5 {
 .team-info span.citation {
   text-align: center;
   color: #fff;
-  display: none; }
+  display: none;
+  padding: 1rem; }
 
 .member-name {
   text-transform: uppercase;
@@ -734,7 +562,7 @@ footer h5 {
   background-size: cover; }
 
 .global-img-1 {
-  background: url("../../images/team.png") center bottom no-repeat;
+  background: url("../../images/team.png") center top no-repeat;
   background-size: cover; }
 
 .team-img-3 {
@@ -746,7 +574,7 @@ footer h5 {
   background-size: cover; }
 
 .global-img-2 {
-  background: url("../../images/love.png") center center no-repeat;
+  background: url("../../images/cactus.png") center center no-repeat;
   background-size: cover; }
 
 .team-img-5 {
@@ -892,5 +720,63 @@ footer h5 {
 .team-recrute .btn {
   margin-left: 3rem;
   margin-right: 3rem; }
+
+.infogreffe-img-1 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 400px; }
+
+.infogreffe-img-2 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 200px; }
+
+.infogreffe-img-3 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 200px;
+  margin-left: 50%;
+  margin-top: -200px; }
+
+.infogreffe-img-4 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 33.333%;
+  height: 300px; }
+
+.infogreffe-img-5 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 33.333%;
+  height: 300px; }
+
+.infogreffe-img-6 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 33.333%;
+  height: 300px; }
+
+.infogreffe-img-7 {
+  background: url("../../images/oncle-sam.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px; }
+
+#infogreffe {
+  padding: 50px 0; }
+
+.vertical-line {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #2F353A;
+  margin: 3rem auto; }
+
+.space-row {
+  margin: 4rem 0 1rem; }
 
 /*# sourceMappingURL=app.css.map */
