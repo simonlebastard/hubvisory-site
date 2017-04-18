@@ -51,11 +51,12 @@ h2 {
 h3 {
   font-size: 1.5rem !important;
   padding: 0.8rem 0;
-  font-weight: 700 !important; }
+  letter-spacing: 2px; }
 
 h4 {
   font-size: 1.3rem !important;
-  padding: 0.5rem 0; }
+  padding: 0.5rem 0;
+  letter-spacing: 2px; }
 
 h5 {
   font-size: 1.1rem !important;
@@ -136,7 +137,7 @@ footer ul li a {
   transition: color 0.5s; }
 
 footer ul li a:hover {
-  color: #2FCC93 !important; }
+  color: #8EE1D8 !important; }
 
 footer ul {
   list-style: none;
@@ -163,10 +164,10 @@ footer h5 {
   background-color: #2A4868; }
 
 .bg-s {
-  background-color: #2FCC93; }
+  background-color: #8EE1D8; }
 
 .bg-t {
-  background-color: #DD3A56; }
+  background-color: #EC7484; }
 
 .bg-g-darkest {
   background-color: #2F353A; }
@@ -210,7 +211,7 @@ footer h5 {
   color: #699ACF; }
 
 .btn-s-fbg {
-  background-color: #2FCC93;
+  background-color: #8EE1D8;
   color: #fff; }
 
 .btn-s-fbg:hover {
@@ -219,7 +220,7 @@ footer h5 {
 
 .fa.fa-chevron-circle-down {
   font-size: 3.5rem;
-  margin-top: 8rem;
+  margin-top: 1rem;
   color: #fff; }
 
 .fa.fa-linkedin, .fa.fa-twitter, .fa.fa-facebook {
@@ -301,6 +302,16 @@ footer h5 {
 .bg-stripe h2 {
   padding: 1rem 0;
   margin: 0; }
+
+.home-first-word {
+  font-weight: 300 !important;
+  font-size: 4rem; }
+
+.home-first-p {
+  margin-top: 8rem;
+  color: #fff;
+  font-weight: 1.3rem;
+  letter-spacing: 1.5px; }
 
 #contact-form-section {
   padding: 50px 0 30px; }
@@ -417,13 +428,13 @@ footer h5 {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  border: 3px solid #2FCC93;
+  border: 3px solid #8EE1D8;
   margin: auto;
   display: block;
   margin-top: 3rem; }
 
 .offre-circle-container {
-  background: linear-gradient(to top, #2FCC93, #2FCC93) repeat-y center;
+  background: linear-gradient(to top, #8EE1D8, #8EE1D8) repeat-y center;
   background-size: 4px 4px;
   margin-top: 6.5rem; }
 
@@ -437,7 +448,7 @@ footer h5 {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #2FCC93;
+  background-color: #8EE1D8;
   position: relative;
   display: inline-block;
   margin: 0 0 2px 0.40rem; }
@@ -524,12 +535,12 @@ footer h5 {
   color: #fff; }
 
 .view-img-1 {
-  background: url("../../images/imaginer.jpg") center right no-repeat;
+  background: url("../../images/trash.png") center right no-repeat;
   background-size: cover;
   height: 500px; }
 
 .view-img-2 {
-  background: url("../../images/imaginer2.jpg") center right no-repeat;
+  background: url("../../images/podium.png") center right no-repeat;
   background-size: cover;
   height: 500px; }
 
@@ -558,7 +569,7 @@ footer h5 {
   background-size: cover; }
 
 .team-img-2 {
-  background: #DD3A56 url("../../images/benoit-sprite.png") center left no-repeat;
+  background: #EC7484 url("../../images/benoit-sprite.png") center left no-repeat;
   background-size: cover; }
 
 .global-img-1 {
@@ -570,7 +581,7 @@ footer h5 {
   background-size: cover; }
 
 .team-img-4 {
-  background: #DD3A56 url("../../images/pierre-sprite.png") center left no-repeat;
+  background: #EC7484 url("../../images/pierre-sprite.png") center left no-repeat;
   background-size: cover; }
 
 .global-img-2 {
@@ -578,11 +589,11 @@ footer h5 {
   background-size: cover; }
 
 .team-img-5 {
-  background: #2FCC93 url("../../images/guy-sprite.png") center left no-repeat;
+  background: #8EE1D8 url("../../images/guy-sprite.png") center left no-repeat;
   background-size: cover; }
 
 .team-img-6 {
-  background: #2FCC93 url("../../images/laura-sprite.png") center left no-repeat;
+  background: #8EE1D8 url("../../images/laura-sprite.png") center left no-repeat;
   background-size: cover; }
 
 .team-img-7 {
@@ -598,7 +609,7 @@ footer h5 {
   background-size: cover; }
 
 .team-img-8 {
-  background: #DD3A56 url("../../images/martin-sprite.png") center left no-repeat;
+  background: #EC7484 url("../../images/martin-sprite.png") center left no-repeat;
   background-size: cover; }
 
 .team-img-9 {
