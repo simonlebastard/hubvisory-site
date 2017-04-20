@@ -299,8 +299,8 @@ footer h5 {
   padding: 50px 0;
   text-align: center; }
 
-.bg-stripe h2 {
-  padding: 1rem 0;
+.bg-p-dark h2 {
+  padding: 1.5rem 0;
   margin: 0; }
 
 .home-first-word {
@@ -423,19 +423,12 @@ footer h5 {
 @media (max-width: 768px) {
   #offre-tabs ul li {
     height: 8rem; } }
-.offre-circle {
-  background: #fff;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  border: 3px solid #8EE1D8;
+.offre-bar {
+  background: #C5F0EB;
+  width: 4px;
+  height: 12rem;
   margin: auto;
   display: block;
-  margin-top: 3rem; }
-
-.offre-circle-container {
-  background: linear-gradient(to top, #8EE1D8, #8EE1D8) repeat-y center;
-  background-size: 4px 4px;
   margin-top: 6.5rem; }
 
 #offre-tabs span {
